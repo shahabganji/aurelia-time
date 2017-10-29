@@ -2425,6 +2425,14 @@ https-proxy-agent@^1.0.0:
     debug "2"
     extend "3"
 
+humanize-duration-ts@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/humanize-duration-ts/-/humanize-duration-ts-1.0.1.tgz#88bd25687655877aba46409d051155fef5a0487e"
+
+humanize-duration@^3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/humanize-duration/-/humanize-duration-3.11.0.tgz#0761462d62a2140426048dc9695cfbcbb20c36d7"
+
 immutable@3.8.1:
   version "3.8.1"
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.1.tgz#200807f11ab0f72710ea485542de088075f68cd2"

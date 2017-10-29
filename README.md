@@ -1,2 +1,5 @@
+
 # aurelia-time
-A set of value converters for time and moments in aurelia
+
+***This is not working atm, ( version 0.0.1)***
+

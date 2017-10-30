@@ -1,7 +1,7 @@
 
 # aurelia-time
 
-***This is not working atm, ( version 0.0.1)***
+***This is somehow working atm, ( version 0.0.15)***
 
 I have plans to add value converters for three major time libraries:
 

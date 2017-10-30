@@ -1,6 +1,6 @@
 {
   "name": "aurelia-time",
-  "version": "0.0.10",
+  "version": "0.0.15",
   "description": "Create typescript plugins for Aurelia",
   "keywords": [
     "aurelia-time",
@@ -59,12 +59,14 @@
     },
     "devDependencies": {},
     "dependencies": {
-      "aurelia-framework": "^1.1.5" , 
-      "humanize-duration": "^3.11.0"
+      "aurelia-framework": "^1.1.5",
+      "humanize-duration": "^3.11.0" , 
+      "jalali-moment": "^2.1.8"
     }
   },
   "dependencies": {
     "aurelia-framework": "^1.1.5",
-    "humanize-duration": "^3.11.0"
+    "humanize-duration": "^3.11.0",
+    "jalali-moment": "^2.1.8"
   }
 }

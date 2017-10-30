@@ -2425,10 +2425,6 @@ https-proxy-agent@^1.0.0:
     debug "2"
     extend "3"
 
-humanize-duration-ts@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/humanize-duration-ts/-/humanize-duration-ts-1.0.1.tgz#88bd25687655877aba46409d051155fef5a0487e"
-
 humanize-duration@^3.11.0:
   version "3.11.0"
   resolved "https://registry.yarnpkg.com/humanize-duration/-/humanize-duration-3.11.0.tgz#0761462d62a2140426048dc9695cfbcbb20c36d7"
@@ -2719,6 +2715,12 @@ isobject@^3.0.0, isobject@^3.0.1:
 isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
+
+jalali-moment@^2.1.8:
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/jalali-moment/-/jalali-moment-2.1.8.tgz#6aa003751d366b0c3364e6e99d34f58100960dc9"
+  dependencies:
+    moment "^2.18.1"
 
 jasmine-core@~2.4.0:
   version "2.4.1"
@@ -3404,6 +3406,10 @@ mkdirp@^0.3.5, mkdirp@~0.3.4:
 modify-values@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/modify-values/-/modify-values-1.0.0.tgz#e2b6cdeb9ce19f99317a53722f3dbf5df5eaaab2"
+
+moment@^2.18.1:
+  version "2.19.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.19.1.tgz#56da1a2d1cbf01d38b7e1afc31c10bcfa1929167"
 
 ms@0.7.1:
   version "0.7.1"

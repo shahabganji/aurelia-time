@@ -1,1 +1,1 @@
-{"version":3,"sources":["../src/aurelia-time.ts"],"names":[],"mappings":";;;;AACA,uDAAsE;AAGtE,mBAA0B,MAA8B;IAErD,MAAM,CAAC,eAAe,CAAC,4BAAQ,CAAC,UAAU,CAAC,wBAAwB,CAAC,CAAC,CAAC;AAEzE,CAAC;AAJD,8BAIC;AAED,4CAAuC","file":"aurelia-time.js","sourceRoot":"src/"}
+{"version":3,"sources":["../src/aurelia-time.ts"],"names":[],"mappings":";;;;AACA,uDAAqE;AAGrE,mBAA0B,MAA8B;IAEpD,MAAM,CAAC,eAAe,CAAC;QACnB,4BAAQ,CAAC,UAAU,CAAC,wBAAwB,CAAC;QAC7C,4BAAQ,CAAC,UAAU,CAAC,aAAa,CAAC;KACrC,CAAC,CAAC;AAEP,CAAC;AAPD,8BAOC;AAED,4CAAuC;AACvC,iCAA4B","file":"aurelia-time.js","sourceRoot":"src/"}

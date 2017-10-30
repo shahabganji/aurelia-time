@@ -1,24 +1,23 @@
 {
-  "name": "aurelia-skeleton-navigation-typescript",
+  "name": "aurelia-time",
   "version": "1.0.3",
   "description": "A starter kit for building a standard navigation-style app with Aurelia and TypeScript.",
   "keywords": [
     "aurelia",
-    "navigation",
-    "skeleton",
+    "time",
     "typescript",
     "vscode"
   ],
   "homepage": "http://aurelia.io",
   "bugs": {
-    "url": "https://github.com/aurelia/skeleton-navigation-typescript/issues"
+    "url": "https://github.com/shahabganji/aurelia-time/issues"
   },
   "license": "CC0-1.0",
-  "author": "Mike Graham <mgraham@technicalmedia.com> (http://cmichaelgraham.io/)",
+  "author": "Saeed Ganji <shahabganji@gmail.com>",
   "main": "dist/main.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/aurelia/skeleton-navigation-typescript"
+    "url":  "https://github.com/shahabganji/aurelia-time"
   },
   "scripts": {
     "prepublish": "./node_modules/.bin/typings install",

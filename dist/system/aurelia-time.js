@@ -1,7 +1,10 @@
-System.register(["aurelia-framework", "./humanize-duration-vc"], function (exports_1, context_1) {
+System.register(["aurelia-framework", "./humanize-duration-vc", "./moment-vc"], function (exports_1, context_1) {
     var __moduleName = context_1 && context_1.id;
     function configure(config) {
-        config.globalResources(aurelia_framework_1.PLATFORM.moduleName("./humanize-duration-vc"));
+        config.globalResources([
+            aurelia_framework_1.PLATFORM.moduleName("./humanize-duration-vc"),
+            aurelia_framework_1.PLATFORM.moduleName("./moment-vc")
+        ]);
     }
     exports_1("configure", configure);
     var aurelia_framework_1;
@@ -22,6 +25,9 @@ System.register(["aurelia-framework", "./humanize-duration-vc"], function (expor
             },
             function (humanize_duration_vc_1_1) {
                 exportStar_1(humanize_duration_vc_1_1);
+            },
+            function (moment_vc_1_1) {
+                exportStar_1(moment_vc_1_1);
             }
         ],
         execute: function () {

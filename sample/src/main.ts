@@ -5,7 +5,7 @@ export function configure(aurelia: Aurelia) {
   aurelia.use
     .standardConfiguration()
     .developmentLogging()
-    .plugin("aurelia-skeleton-plugin-typescript");
+    .plugin("aurelia-time");
 
   // Uncomment the line below to enable animation.
   // aurelia.use.plugin('aurelia-animator-css');
@@ -14,4 +14,5 @@ export function configure(aurelia: Aurelia) {
   // aurelia.use.plugin('aurelia-html-import-template-loader')
 
   aurelia.start().then(() => aurelia.setRoot());
+  
 }

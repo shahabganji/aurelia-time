@@ -114,4 +114,4 @@ export class Home {
 </span>
 ```
 
-## **Any contribution will be welcomed**
+## **Any contribution will be welcome**

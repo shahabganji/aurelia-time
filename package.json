@@ -1,13 +1,13 @@
 {
   "name": "aurelia-time",
-  "version": "0.0.15",
-  "description": "Create typescript plugins for Aurelia",
+  "version": "1.0.0",
+  "description": "A set of value converters for date and time based on existing libraries.",
   "keywords": [
     "aurelia-time",
     "aurelia",
-    "timezone",
+    "timezone", "moment-timezone" ,
     "humanizeDuration",
-    "momentjs"
+    "momentjs" , "moment" , "jalali-moment"
   ],
   "homepage": "https://github.com/shahabganji/aurelia-time",
   "bugs": {
@@ -60,13 +60,15 @@
     "devDependencies": {},
     "dependencies": {
       "aurelia-framework": "^1.1.5",
-      "humanize-duration": "^3.11.0" , 
-      "jalali-moment": "^2.1.8"
+      "humanize-duration": "^3.11.0",
+      "jalali-moment": "^2.1.8",
+      "moment-timezone": "^0.5.14"
     }
   },
   "dependencies": {
     "aurelia-framework": "^1.1.5",
     "humanize-duration": "^3.11.0",
-    "jalali-moment": "^2.1.8"
+    "jalali-moment": "^2.1.8",
+    "moment-timezone": "^0.5.14"
   }
 }

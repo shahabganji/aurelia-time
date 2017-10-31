@@ -1,0 +1,11 @@
+<template>
+
+  <require from="./clock-digital.css"></require>
+
+  <div class="clock" css="color: ${color};text-shadow: 0 0 20px ${shadowColor}, 0 0 20px rgba(10, 175, 230, 0);font-size: ${fontSize/4}px;">
+    <p class="date">${value|date:dateFormat:locale}</p>
+    <p class="time" css="font-size: ${fontSize}px;">${value|time:be24Hours}</p>
+    <p class="text" css="font-size: ${fontSize/5}px;">${text}</p>
+  </div>
+
+</template>

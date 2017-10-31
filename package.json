@@ -1,13 +1,13 @@
 {
   "name": "aurelia-time",
-  "version": "1.0.0",
+  "version": "1.0.17",
   "description": "A set of value converters for date and time based on existing libraries.",
   "keywords": [
     "aurelia-time",
     "aurelia",
-    "timezone", "moment-timezone" ,
+    "timezone", "moment-timezone",
     "humanizeDuration",
-    "momentjs" , "moment" , "jalali-moment"
+    "momentjs", "moment", "jalali-moment"
   ],
   "homepage": "https://github.com/shahabganji/aurelia-time",
   "bugs": {

@@ -51,7 +51,7 @@ define(["require", "exports", "aurelia-framework"], function (require, exports, 
         ], ClockCustomElement.prototype, "shadowColor", void 0);
         __decorate([
             aurelia_framework_1.bindable({ defaultBindingMode: aurelia_framework_1.bindingMode.oneTime }),
-            __metadata("design:type", String)
+            __metadata("design:type", Object)
         ], ClockCustomElement.prototype, "fontSize", void 0);
         __decorate([
             aurelia_framework_1.bindable({ defaultBindingMode: aurelia_framework_1.bindingMode.oneWay }),
@@ -85,4 +85,4 @@ define(["require", "exports", "aurelia-framework"], function (require, exports, 
     exports.ClockCustomElement = ClockCustomElement;
 });
 
-//# sourceMappingURL=clock-digital.js.map
+//# sourceMappingURL=clock.js.map

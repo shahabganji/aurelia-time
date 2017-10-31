@@ -1,6 +1,6 @@
 <template>
 
-  <require from="./clock-digital.css"></require>
+  <require from="./clock.css"></require>
 
   <div class="clock" css="color: ${color};text-shadow: 0 0 20px ${shadowColor}, 0 0 20px rgba(10, 175, 230, 0);">
     <p if.bind="showDate" class="date" css="font-size: ${fontSize/2}px;">${value|date:dateFormat:locale}</p>

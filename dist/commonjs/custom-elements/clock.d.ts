@@ -4,7 +4,7 @@ export declare class ClockCustomElement {
     text: string;
     color: string;
     shadowColor: string;
-    fontSize: string;
+    fontSize: string | number;
     locale: string;
     dateFormat: string;
     be24Hours: string | boolean;

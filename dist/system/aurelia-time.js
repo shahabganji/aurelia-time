@@ -1,11 +1,11 @@
-System.register(["aurelia-framework", "./custom-elements/clock-digital"], function (exports_1, context_1) {
+System.register(["aurelia-framework", "./custom-elements/clock"], function (exports_1, context_1) {
     var __moduleName = context_1 && context_1.id;
     function configure(config) {
         config.globalResources([
             aurelia_framework_1.PLATFORM.moduleName("./value-converters/humanize-duration-vc"),
             aurelia_framework_1.PLATFORM.moduleName("./value-converters/moment-vc"),
             aurelia_framework_1.PLATFORM.moduleName("./value-converters/moment-timezone-vs"),
-            aurelia_framework_1.PLATFORM.moduleName('./custom-elements/clock-digital')
+            aurelia_framework_1.PLATFORM.moduleName('./custom-elements/clock')
         ]);
     }
     exports_1("configure", configure);
@@ -25,8 +25,8 @@ System.register(["aurelia-framework", "./custom-elements/clock-digital"], functi
             function (aurelia_framework_1_1) {
                 aurelia_framework_1 = aurelia_framework_1_1;
             },
-            function (clock_digital_1_1) {
-                exportStar_1(clock_digital_1_1);
+            function (clock_1_1) {
+                exportStar_1(clock_1_1);
             }
         ],
         execute: function () {

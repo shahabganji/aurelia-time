@@ -8,10 +8,10 @@ function configure(config) {
         aurelia_framework_1.PLATFORM.moduleName("./value-converters/humanize-duration-vc"),
         aurelia_framework_1.PLATFORM.moduleName("./value-converters/moment-vc"),
         aurelia_framework_1.PLATFORM.moduleName("./value-converters/moment-timezone-vs"),
-        aurelia_framework_1.PLATFORM.moduleName('./custom-elements/clock-digital')
+        aurelia_framework_1.PLATFORM.moduleName('./custom-elements/clock')
     ]);
 }
 exports.configure = configure;
-__export(require("./custom-elements/clock-digital"));
+__export(require("./custom-elements/clock"));
 
 //# sourceMappingURL=aurelia-time.js.map

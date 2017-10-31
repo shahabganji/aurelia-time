@@ -59,7 +59,7 @@ System.register(["aurelia-framework"], function (exports_1, context_1) {
                 ], ClockCustomElement.prototype, "shadowColor", void 0);
                 __decorate([
                     aurelia_framework_1.bindable({ defaultBindingMode: aurelia_framework_1.bindingMode.oneTime }),
-                    __metadata("design:type", String)
+                    __metadata("design:type", Object)
                 ], ClockCustomElement.prototype, "fontSize", void 0);
                 __decorate([
                     aurelia_framework_1.bindable({ defaultBindingMode: aurelia_framework_1.bindingMode.oneWay }),
@@ -95,4 +95,4 @@ System.register(["aurelia-framework"], function (exports_1, context_1) {
     };
 });
 
-//# sourceMappingURL=clock-digital.js.map
+//# sourceMappingURL=clock.js.map

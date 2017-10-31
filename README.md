@@ -29,7 +29,15 @@ yarn add aurelia-time
         .plugin(PLATFORM.moduleName('aurelia-time'));
 ```
 
-# Moment
+# Value converters
+
+## *1. Moment:* consists of four value converters : 
+```
+  * date( value:string, format:string, locale:string )
+  * time( value:string, show24Hours:string|boolean )
+  * age( value:string )
+  * relative( value:string , doAsJalali: boolean )
+```
 
 ``` typescript
 export class Home {
@@ -66,11 +74,15 @@ export class Home {
     <span>
         ${myDate|date:myFormat:options.locale}
     </span>
+
+    <span>
+        ${myDate|time:false:options.locale}
+    </span>
+
 </h1>
 ```
 
-# Moment Timezone
-
+## *2. Moment Timezone*
 
 ``` typescript
 export class Home {
@@ -105,7 +117,7 @@ export class Home {
 ```
 
 
-# Humanize Duration
+## 3. Humanize Duration
 
 
 ``` html
@@ -113,5 +125,35 @@ export class Home {
     ${361000 |humanize:{language:options.locale}}
 </span>
 ```
+
+# Custom Elements
+
+## 1. *Clock*
+
+Inspired by [Codepen](https://codepen.io/gau/pen/LjQwGp)
+
+``` html
+ <au-clock font-size="40" be24-hours="false" date-format="YYYY MMMM DD" locale="fa"
+     style="left: 300px; top:200px; position: absolute"
+        show-time.bind="showTime" show-date.bind="showDate" show-text.bind="showText">Ï
+
+```
+This custom element consists of four ***one-time*** bindable properties: 
+
+* text: string
+* color: string
+* shadowColor: string
+* fontSize: string | number
+
+and six ***one-way*** bindable properties:
+
+* locale: string
+* dateFormat: string
+* be24Hours: string | boolean
+* showDate: string | boolean
+* showTime: string | boolean
+* showText: string | boolean
+
+
 
 ## **Any contribution will be welcome**

@@ -12,7 +12,7 @@ export class ClockCustomElement {
   @bindable({ defaultBindingMode: bindingMode.oneTime }) text: string = "Aurelia is awesome";
   @bindable({ defaultBindingMode: bindingMode.oneTime }) color: string = '#753B85';
   @bindable({ defaultBindingMode: bindingMode.oneTime }) shadowColor: string = "#C8167A";
-  @bindable({ defaultBindingMode: bindingMode.oneTime }) fontSize: string = "40";
+  @bindable({ defaultBindingMode: bindingMode.oneTime }) fontSize: string | number = "40";
   /* ************************************************************************* */
 
   /** One way bindings */

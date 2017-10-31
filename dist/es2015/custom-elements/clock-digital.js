@@ -18,6 +18,9 @@ var ClockCustomElement = (function () {
         this.locale = "en";
         this.dateFormat = "YYYY/MM/DD";
         this.be24Hours = true;
+        this.showText = true;
+        this.showDate = true;
+        this.showTime = true;
     }
     ClockCustomElement.prototype.attached = function () {
         var _this = this;
@@ -62,8 +65,20 @@ var ClockCustomElement = (function () {
         aurelia_framework_1.bindable({ defaultBindingMode: aurelia_framework_1.bindingMode.oneWay }),
         __metadata("design:type", Object)
     ], ClockCustomElement.prototype, "be24Hours", void 0);
+    __decorate([
+        aurelia_framework_1.bindable({ defaultBindingMode: aurelia_framework_1.bindingMode.oneWay }),
+        __metadata("design:type", Object)
+    ], ClockCustomElement.prototype, "showText", void 0);
+    __decorate([
+        aurelia_framework_1.bindable({ defaultBindingMode: aurelia_framework_1.bindingMode.oneWay }),
+        __metadata("design:type", Object)
+    ], ClockCustomElement.prototype, "showDate", void 0);
+    __decorate([
+        aurelia_framework_1.bindable({ defaultBindingMode: aurelia_framework_1.bindingMode.oneWay }),
+        __metadata("design:type", Object)
+    ], ClockCustomElement.prototype, "showTime", void 0);
     ClockCustomElement = __decorate([
-        aurelia_framework_1.customElement('clock-digital')
+        aurelia_framework_1.customElement('au-clock')
     ], ClockCustomElement);
     return ClockCustomElement;
 }());

@@ -10,12 +10,9 @@ export function configure(config: FrameworkConfiguration) {
     PLATFORM.moduleName("./value-converters/moment-vc"),
     PLATFORM.moduleName("./value-converters/moment-timezone-vs"),
 
-    PLATFORM.moduleName('./custom-elements/clock-digital')
+    PLATFORM.moduleName('./custom-elements/clock')
   ]);
 
 }
 
-// export * from './value-converters/humanize-duration-vc';
-// export * from './value-converters/moment-vc';
-// export * from './value-converters/moment-timezone-vs';
-export * from './custom-elements/clock-digital'
+export * from './custom-elements/clock'

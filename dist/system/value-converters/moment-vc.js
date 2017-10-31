@@ -69,7 +69,8 @@ System.register(["aurelia-framework"], function (exports_1, context_1) {
                     if (show24Hours === void 0) { show24Hours = true; }
                     if (!value)
                         return null;
-                    var format = show24Hours ? "HH:mm:ss" : "hh:mm:ss a";
+                    var format = show24Hours === true || show24Hours === "true" ? "HH:mm:ss" : "hh:mm:ss a";
+                    console.log("time format is: " + format);
                     return moment(value).format(format);
                 };
                 TimeConverter = __decorate([

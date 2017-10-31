@@ -1,6 +1,6 @@
 import { customElement, bindable, bindingMode, useShadowDOM } from "aurelia-framework";
 
-@customElement('clock-digital')
+@customElement('au-clock')
 export class ClockCustomElement {
 
   // Private fields: 
@@ -19,6 +19,11 @@ export class ClockCustomElement {
   @bindable({ defaultBindingMode: bindingMode.oneWay }) locale: string = "en";
   @bindable({ defaultBindingMode: bindingMode.oneWay }) dateFormat: string = "YYYY/MM/DD";
   @bindable({ defaultBindingMode: bindingMode.oneWay }) be24Hours: string | boolean = true;
+
+  @bindable({ defaultBindingMode: bindingMode.oneWay }) showText: string | boolean = true;
+  @bindable({ defaultBindingMode: bindingMode.oneWay }) showDate: string | boolean = true;
+  @bindable({ defaultBindingMode: bindingMode.oneWay }) showTime: string | boolean = true;
+
   /* ************************************************************************* */
 
 

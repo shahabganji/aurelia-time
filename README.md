@@ -114,6 +114,7 @@ export class Home {
 <br />
 
 <label textcontent.bind="myDate|timezone:selectedTimezone">
+</label>
 ```
 
 
@@ -134,8 +135,8 @@ Inspired by [Codepen](https://codepen.io/gau/pen/LjQwGp)
 
 ``` html
  <au-clock font-size="40" be24-hours="false" date-format="YYYY MMMM DD" locale="fa"
-     style="left: 300px; top:200px; position: absolute"
-        show-time.bind="showTime" show-date.bind="showDate" show-text.bind="showText">Ï
+     style="left: 300px; top:200px; position: absolute">
+</au-clock>
 
 ```
 This custom element consists of four ***one-time*** bindable properties: 
